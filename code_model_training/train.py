@@ -55,3 +55,4 @@ plt.show()
 
 # Export model
 joblib.dump(pipe, gzip.open('model/model_binary.dat.gz', "wb"))
+print("Succesfully Exported the model")
